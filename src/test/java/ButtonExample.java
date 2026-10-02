@@ -64,7 +64,7 @@ public class ButtonExample {
         // -------------------------------------------------------------
         WebElement textBtn = driver.findElement(By.xpath("//button[span[text()='Submit']]"));
         String buttonText = textBtn.getText(); // getText() Method
-        System.out.println("06) Button Text : " + buttonTex
+        System.out.println("06) Button Text : " + buttonText);
         // driver.quit();
     }
 }
